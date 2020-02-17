@@ -1,0 +1,31 @@
+{
+  "orderId" : {
+    "id":"adfafdafafdasfas"
+  },
+  "product" : [{
+    "name" : "abc" ,
+    "price" : 1010
+  },
+    {
+      "name" : "abc1" ,
+      "price" : 10101
+    }],
+  "receipient" : {
+    "basicProfile" : {
+      "name" : "absj",
+      "phoneNumber" : "aabsjabsj",
+      "email" : "absjabsjabsja"
+    },
+    "address" : [{
+      "addressType" : "billing",
+      "city" : "aabsjabsjabsj",
+      "state" : "aabsj",
+      "country" : "khjkjka"
+    },{
+      "addressType" : "delivery",
+      "city" : "fhghghd",
+      "state" : "duioio",
+      "country" : "rdtfyhkjd"
+    }]
+  }
+}
