@@ -1,4 +1,4 @@
-package RabbitMQ;
+package com.apitesting.api.RabbitMq;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;

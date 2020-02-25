@@ -1,4 +1,4 @@
-package RabbitMQ;
+package com.apitesting.api.RabbitMq;
 
 
 import java.io.Serializable;

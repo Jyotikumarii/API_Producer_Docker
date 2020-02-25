@@ -1,4 +1,4 @@
-package RabbitMQ;
+package com.apitesting.api.RabbitMq;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

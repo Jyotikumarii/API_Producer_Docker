@@ -1,8 +1,6 @@
 {
-  "orderId" : {
-    "id":"adfafdafafdasfas"
-  },
-  "product" : [{
+  "orderId" : "adfafdafafdasfas",
+  "products" : [{
     "name" : "abc" ,
     "price" : 1010
   },
@@ -12,20 +10,24 @@
     }],
   "receipient" : {
     "basicProfile" : {
-      "name" : "absj",
-      "phoneNumber" : "aabsjabsj",
-      "email" : "absjabsjabsja"
+      "name" : "",
+      "phoneNumber" : "",
+      "email" : ""
     },
-    "address" : [{
+    "addresses" : [{
       "addressType" : "billing",
-      "city" : "aabsjabsjabsj",
-      "state" : "aabsj",
-      "country" : "khjkjka"
+      "line1" : "",
+      "line2" : "",
+      "city" : "",
+      "state" : "",
+      "country" : ""
     },{
       "addressType" : "delivery",
-      "city" : "fhghghd",
-      "state" : "duioio",
-      "country" : "rdtfyhkjd"
+      "line1" : "",
+      "line2" : "",
+      "city" : "",
+      "state" : "",
+      "country" : ""
     }]
   }
 }
