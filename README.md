@@ -35,6 +35,4 @@ Create 3 new listener in service 2. All should be able to receive message from t
 I am assuming you will figure out how to add queue to a listener using GOOGLE SEARCH.
 Just print the message to the log. Together with the current queue name
 
-
-
-
+"manual.txt" file contains instruction to run service in docker.
