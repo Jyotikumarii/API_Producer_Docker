@@ -40,6 +40,8 @@ Create an api accepting the below JSON as an Object.
     }]
   }
 }
+
+
 Send the above message to a topic exchange. You can name is whatever you want. Service 2:
 Create a listener in service 2. This listener should be able to receive message from the above topic exchange.
 I am assuming you will figure out how to add queue to a listener using GOOGLE SEARCH.
