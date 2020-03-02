@@ -28,6 +28,7 @@ public class ControllerClass {
         return "Hello";
     }
 
+    
     @PostMapping(path = "/local/topic")
     public String sendTopicMessage(@RequestBody Customer orderRequest) {
         orderService.saveOrder(orderRequest);
