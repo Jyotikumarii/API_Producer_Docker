@@ -34,3 +34,26 @@ Service 2:
 Create 3 new listener in service 2. All should be able to receive message from the above Fanout Exchange.
 I am assuming you will figure out how to add queue to a listener using GOOGLE SEARCH.
 Just print the message to the log. Together with the current queue name
+
+Running service in docker
+>brew install docker
+>docker pull mysql
+>docker pull rabbitmq
+>mvn clean
+>mvn install
+>docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=password  -E MYSQL_DATABASE=test -e MYSQL_USER=sa -e MYSQL_PASSWORD=password -d mysql:5.6
+>docker container ls
+>docker build -f src/main/java/com/apitesting/api/Dockerfile -t users-mysql .
+>docker run -p 8086:8086 --name  users-mysql --link mysql-standalone:mysql -d users-mysql
+
+
+
+
+
+
+
+
+
+
+
+
